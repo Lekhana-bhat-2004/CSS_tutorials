@@ -1,0 +1,95 @@
+/* colour picker,colour pallette:coolers*/
+
+p{
+    color:#2510e5;
+    text-align: left;
+    font-family: cursive;
+    
+}
+button{
+    color:#eeff00;
+    /* background-color: hotpink; */
+    /* background-color: #ff00ff; */
+    background-color: #4e4e69;
+    font-family: Verdana;
+}
+body{
+    background-color: #ecf39e;
+}
+
+/* universal selector
+*{
+    color: red;
+} 
+    */
+
+#heading1{
+    color:red;
+    text-align: left; /*it works only through parent 
+    start-left, end-right*/
+    text-decoration:underline;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* manr fonts mentioned coz if one does not exist guve another*/
+    
+}
+
+#headingtwo{
+    color: rgb(2, 228, 236);
+    text-align: center;
+    text-decoration: rgb(53, 241, 6)underline;
+    text-decoration-style: double;
+    font-weight: 900; /* has value from 100 to 900*/
+
+}
+.classone{
+    color:rgb(55,200,88)
+}
+.classtwo{
+    color: blueviolet;
+    font-size:38px;
+}
+#box{
+    background-color: rgb(140, 140, 212);
+    color:aliceblue;
+}
+.heading{
+    color:rgb(111, 64, 64);
+    text-decoration: underline ;
+    text-decoration-style:dashed;
+    font-weight: 100;
+    font-size: larger;
+
+}
+/* or we can do like this coz heading is same class for all three :
+h1,h2,h3{
+   color:red;
+}
+   */
+button{
+    background-color:green;
+}
+.classthree{
+    line-height:15px;
+    text-transform: capitalize;
+}
+h3{
+    text-align: center;
+    text-transform: capitalize;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+#outer{
+    font-size: 30px;
+}
+
+#inner{
+    font-size: 15px;
+}
+div{
+    background-color: brown;
+
+}
