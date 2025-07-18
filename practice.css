@@ -1,0 +1,64 @@
+/* using inline only w ecant set properties like margin padding width g=height of content ect */
+/* hnce use inline-block to set set all properties of content od div with crct amout of space*/
+/* when we want to bring many elem in single line and to set properties also use inline-block */
+
+#navbar{
+    background-color: rgb(14, 13, 13);
+}
+a{
+    color: red;
+    padding: 50px;
+    margin: 50px;
+}
+/* #ek{
+    background-color:rgba(0,0,255,1);
+
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding:25px;
+    display: inline-block;
+    border: solid 2px black;
+}
+#dho{
+    background-color: rgba(255,0,0,0.5);
+    width: 100px;
+    height:100px;
+    margin: 25px;
+    padding:25px;
+    display: inline-block;
+    border: solid 2px black; */
+    /* visibility: hidden; */
+    /* use visibility to hide elem and leave space for it */
+
+
+/* }
+#teen{
+    background-color:rgba(0,255,0.25);
+    width:100px;
+    height:100px;
+    margin: 25px;
+    padding:25px;
+    border: solid 2px black; */
+    /* display: none;   */
+    /*use none to remove elem ,vanishes and no space left for it  */
+    
+/* } */
+.minchu{
+    background-color: rgb(234, 31, 200);
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    border: solid 2px black;
+    display: inline-block;
+}
+#minchus{
+    height:500px;
+
+}
+footer{
+    background-color: rgb(83, 61, 33);
+    color: antiquewhite;
+    text-align: center;
+}
