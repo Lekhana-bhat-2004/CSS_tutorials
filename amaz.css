@@ -1,0 +1,20 @@
+*{
+    padding:50;
+    margin:300;
+    color:white;
+}
+#navbar{
+   height:60px;
+   background-color: black; 
+}
+button{
+    background-color: bisque;
+    color: black;
+}
+#logo{
+    color: yellow;
+    font-size: 20px;
+}
+a{
+    margin-right: 100px;
+}
