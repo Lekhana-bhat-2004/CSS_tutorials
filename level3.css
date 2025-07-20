@@ -1,0 +1,75 @@
+/* retative properly percentage */
+/* #box1{
+    height:100px;
+    width:300px;
+    background-color: rosybrown; 
+    font-size: 10px;   */
+
+/* % changes with respect to parent element */
+/* #box2{ */
+    /*height: 50vh;*/  /*50% of veiwport height, similargy for width vw
+    /* width:50px; */
+    /* width: 50%;
+    background-color: seagreen;
+    margin-left: 10%;
+    font-size: 2em; */
+    /* em: 2 times of parent for text like properties*/
+    /* for width like properties em will work on the elemtent itself, but use % */
+    /* rem set size according to root element */
+/* } */
+div{
+
+    background-color: violet;
+    border: 3px,solid,blue;
+    display:inline-block;
+}
+#div1{
+    position: static;
+    top:100px; /*default, no changes for top,right,bottom,left dont wrok for static*/
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+}
+#div2{
+    position: relative; /* relative to its normal position */
+    top: 50px;
+    right:10px;
+    width:200px;
+    height:200px;
+    z-index: 2; /*to bring to front*/
+    background-image:url("cat_photo.jpg");
+    background-size: cover;
+}
+#div3{
+    position: absolute; /*relative to is closest ancestor(non static), eg:parent,parents elements */
+    top: 500px;
+    left:100px;
+    width:200px;
+    height:200px;
+    z-index: 1;
+    /* for now the body tag is the closest ancestor for div3 */
+    background-image:url("background.jpg");
+    background-size: contain;
+    /* background-repeat:no-repeat; */
+
+}
+#div4{
+    position: fixed; /* relative to browser window itselff onlyy */
+    /*for creating navbar, it does change while scrolling through the page*/
+   top:50px;
+   width:100%;
+   height:50px;
+    
+}
+#div5{
+    position: sticky; /*while scrolling it will stick to its position*/
+    top:200px;
+    width:100px;
+    height:100px;
+    
+}
+body{
+     background-image:url("background.jpg");
+    background-size: cover;
+    
+}
