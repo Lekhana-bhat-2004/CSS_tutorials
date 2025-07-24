@@ -1,0 +1,39 @@
+body{
+    text-align: center;;
+}
+div{
+    width: 150px;
+    height: 50px;
+    border: 2px, solid, black;
+    display: inline-block;   
+}
+#container{
+    width:500px;
+    height:600px;
+    display:flex; /*can use flexbox properties
+    /* flex-direction:row; fits inside the container */
+    /* justify-content: space-evenly; main axis start/end and center */
+    /* flex-direction: column-reverse; main axis bottom to top */
+    /* justify-content: flex-end; content ulta at top */
+    flex-direction: row;
+    justify-content:center ;
+    align-content:center;
+}
+#box1{
+    background-color: red;
+}
+
+#box2{
+    background-color: green;
+}
+
+#box3{
+    background-color: blue;
+}
+
+#box4{
+    background-color: yellow;
+}
+#box5{
+    background-color: rgb(123, 87, 87);
+}
